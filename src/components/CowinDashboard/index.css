@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #161625;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.web-logo {
+  height: 30px;
+  width: 30px;
+  margin: 10px;
+}
+.web-head {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #2cc6c6;
+}
+.chart-head {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #cbd5e1;
+}
+.chart-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+}
+.fail-img {
+  height: 500px;
+  width: 500px;
+  margin: 10px;
+}
